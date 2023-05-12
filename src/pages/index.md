@@ -48,16 +48,15 @@ call();
 ```
 
 ## py block
-### also seems wrong - num1 and num2
 ```py
 num1 = 1.5
 num2 = 6.3
 
 # Add two numbers
-sum = num1 + num2
+s = num1 + num2
 
 # Display the sum
-print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+print('The sum of {0} and {1} is {2}'.format(num1, num2, s))
 ```
 
 ## py-diff block
@@ -69,8 +68,8 @@ print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
 num2 = 6.3
 
 # Add two numbers
-sum = num1 + num2
+s = num1 + num2
 
 # Display the sum
-print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+print('The sum of {0} and {1} is {2}'.format(num1, num2, s))
 ```
