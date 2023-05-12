@@ -1,0 +1,36 @@
+{
+  "name": "gatsby-plattform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "gatsby-plattform",
+  "author": "B9lab",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^2.1.5",
+    "gatsby": "^5.2.0",
+    "gatsby-plugin-mdx": "^5.2.0",
+    "gatsby-remark-prismjs": "^7.9.0",
+    "gatsby-source-filesystem": "^5.2.0",
+    "gatsby-transformer-remark": "^6.2.0",
+    "prismjs": "^1.29.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/prismjs": "^1.26.0",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "autoprefixer": "^10.4.13",
+    "typescript": "^5.0.4"
+  }
+}
